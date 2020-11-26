@@ -1,0 +1,55 @@
+* {
+  color:black;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: block;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-image: linear-gradient(#005ce6, #1a75ff);
+  z-index: 10;
+}
+
+input {
+  height: 20px;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
+
+.playlistContainer {
+  margin-top: 60px;
+}
+
+.playlist {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  position: relative;
+}
+
+.playlist iframe {
+  margin-right: 10px;
+  width: 640px;
+  background-color: black;
+}
+
+.bgImg {
+  background-image: url('../img/undraw_Astronaut_re_8c33.svg');
+  width: 638px;
+  height: 480px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
